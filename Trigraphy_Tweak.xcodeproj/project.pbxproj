@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A85F26061D2F792A007C0316 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A85F26051D2F792A007C0316 /* Foundation.framework */; };
+		A85F26111D2F792A007C0316 /* Trigraphy_Tweak.mm in Sources */ = {isa = PBXBuildFile; fileRef = A85F26101D2F792A007C0316 /* Trigraphy_Tweak.mm */; };
+		A85F261C1D2F7A61007C0316 /* Trigraphy_Tweak.h in Headers */ = {isa = PBXBuildFile; fileRef = A85F261B1D2F7A61007C0316 /* Trigraphy_Tweak.h */; };
+		A85F26271D2F7B85007C0316 /* YYHooK.mm in Sources */ = {isa = PBXBuildFile; fileRef = A85F261D1D2F7B84007C0316 /* YYHooK.mm */; };
+		A85F26281D2F7B85007C0316 /* YYHooK.h in Headers */ = {isa = PBXBuildFile; fileRef = A85F261E1D2F7B84007C0316 /* YYHooK.h */; };
+		A85F26291D2F7B85007C0316 /* YYHelper.mm in Sources */ = {isa = PBXBuildFile; fileRef = A85F261F1D2F7B84007C0316 /* YYHelper.mm */; };
+		A85F262A1D2F7B85007C0316 /* YYHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = A85F26201D2F7B84007C0316 /* YYHelper.h */; };
+		A85F262B1D2F7B85007C0316 /* UIImage+UIInage_GrayData.mm in Sources */ = {isa = PBXBuildFile; fileRef = A85F26211D2F7B84007C0316 /* UIImage+UIInage_GrayData.mm */; };
+		A85F262C1D2F7B85007C0316 /* UIImage+UIInage_GrayData.h in Headers */ = {isa = PBXBuildFile; fileRef = A85F26221D2F7B84007C0316 /* UIImage+UIInage_GrayData.h */; };
+		A85F262F1D2F7B85007C0316 /* UIImage+ARGBData.mm in Sources */ = {isa = PBXBuildFile; fileRef = A85F26251D2F7B84007C0316 /* UIImage+ARGBData.mm */; };
+		A85F26301D2F7B85007C0316 /* UIImage+ARGBData.h in Headers */ = {isa = PBXBuildFile; fileRef = A85F26261D2F7B85007C0316 /* UIImage+ARGBData.h */; };
+		A85F26321D2F7EFE007C0316 /* defs.h in Headers */ = {isa = PBXBuildFile; fileRef = A85F26311D2F7EFE007C0316 /* defs.h */; };
+		A85F26341D2F8AF6007C0316 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A85F26331D2F8AF6007C0316 /* CoreImage.framework */; };
+		A85F26361D2F8B0E007C0316 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A85F26351D2F8B0E007C0316 /* CoreGraphics.framework */; };
+		A85F26381D2F8B5C007C0316 /* libsubstrate.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A85F26371D2F8B5C007C0316 /* libsubstrate.dylib */; };
+		A85F263A1D2F8C0C007C0316 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A85F26391D2F8C0C007C0316 /* UIKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A850E7081D5315D1005E233C /* preprocessed.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = preprocessed.jpg; sourceTree = "<group>"; };
+		A85F26021D2F792A007C0316 /* Trigraphy_Tweak.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = Trigraphy_Tweak.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		A85F26051D2F792A007C0316 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A85F260A1D2F792A007C0316 /* control.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = control.txt; path = Package/DEBIAN/control.txt; sourceTree = "<group>"; };
+		A85F260B1D2F792A007C0316 /* control */ = {isa = PBXFileReference; lastKnownFileType = text; name = control; path = Package/DEBIAN/control; sourceTree = "<group>"; };
+		A85F260D1D2F792A007C0316 /* PackageVersion.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PackageVersion.plist; sourceTree = "<group>"; };
+		A85F260E1D2F792A007C0316 /* Trigraphy_Tweak-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Trigraphy_Tweak-Prefix.pch"; sourceTree = "<group>"; };
+		A85F26101D2F792A007C0316 /* Trigraphy_Tweak.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = Trigraphy_Tweak.mm; sourceTree = "<group>"; };
+		A85F26151D2F792A007C0316 /* Trigraphy_Tweak.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Trigraphy_Tweak.plist; path = Package/Library/MobileSubstrate/DynamicLibraries/Trigraphy_Tweak.plist; sourceTree = "<group>"; };
+		A85F261B1D2F7A61007C0316 /* Trigraphy_Tweak.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Trigraphy_Tweak.h; sourceTree = "<group>"; };
+		A85F261D1D2F7B84007C0316 /* YYHooK.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = YYHooK.mm; sourceTree = "<group>"; };
+		A85F261E1D2F7B84007C0316 /* YYHooK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYHooK.h; sourceTree = "<group>"; };
+		A85F261F1D2F7B84007C0316 /* YYHelper.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = YYHelper.mm; sourceTree = "<group>"; };
+		A85F26201D2F7B84007C0316 /* YYHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYHelper.h; sourceTree = "<group>"; };
+		A85F26211D2F7B84007C0316 /* UIImage+UIInage_GrayData.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "UIImage+UIInage_GrayData.mm"; sourceTree = "<group>"; };
+		A85F26221D2F7B84007C0316 /* UIImage+UIInage_GrayData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+UIInage_GrayData.h"; sourceTree = "<group>"; };
+		A85F26251D2F7B84007C0316 /* UIImage+ARGBData.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "UIImage+ARGBData.mm"; sourceTree = "<group>"; };
+		A85F26261D2F7B85007C0316 /* UIImage+ARGBData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ARGBData.h"; sourceTree = "<group>"; };
+		A85F26311D2F7EFE007C0316 /* defs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = defs.h; sourceTree = "<group>"; };
+		A85F26331D2F8AF6007C0316 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		A85F26351D2F8B0E007C0316 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A85F26371D2F8B5C007C0316 /* libsubstrate.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsubstrate.dylib; path = ../../../../opt/iOSOpenDev/lib/libsubstrate.dylib; sourceTree = "<group>"; };
+		A85F26391D2F8C0C007C0316 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A85F25FE1D2F792A007C0316 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A85F263A1D2F8C0C007C0316 /* UIKit.framework in Frameworks */,
+				A85F26381D2F8B5C007C0316 /* libsubstrate.dylib in Frameworks */,
+				A85F26361D2F8B0E007C0316 /* CoreGraphics.framework in Frameworks */,
+				A85F26341D2F8AF6007C0316 /* CoreImage.framework in Frameworks */,
+				A85F26061D2F792A007C0316 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A85F25F71D2F792A007C0316 = {
+			isa = PBXGroup;
+			children = (
+				A85F26071D2F792A007C0316 /* Trigraphy_Tweak */,
+				A85F26041D2F792A007C0316 /* Frameworks */,
+				A85F26031D2F792A007C0316 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A85F26031D2F792A007C0316 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A85F26021D2F792A007C0316 /* Trigraphy_Tweak.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A85F26041D2F792A007C0316 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A85F26391D2F8C0C007C0316 /* UIKit.framework */,
+				A85F26371D2F8B5C007C0316 /* libsubstrate.dylib */,
+				A85F26351D2F8B0E007C0316 /* CoreGraphics.framework */,
+				A85F26331D2F8AF6007C0316 /* CoreImage.framework */,
+				A85F26051D2F792A007C0316 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A85F26071D2F792A007C0316 /* Trigraphy_Tweak */ = {
+			isa = PBXGroup;
+			children = (
+				A850E7081D5315D1005E233C /* preprocessed.jpg */,
+				A85F26311D2F7EFE007C0316 /* defs.h */,
+				A85F261D1D2F7B84007C0316 /* YYHooK.mm */,
+				A85F261E1D2F7B84007C0316 /* YYHooK.h */,
+				A85F261F1D2F7B84007C0316 /* YYHelper.mm */,
+				A85F26201D2F7B84007C0316 /* YYHelper.h */,
+				A85F26211D2F7B84007C0316 /* UIImage+UIInage_GrayData.mm */,
+				A85F26221D2F7B84007C0316 /* UIImage+UIInage_GrayData.h */,
+				A85F26251D2F7B84007C0316 /* UIImage+ARGBData.mm */,
+				A85F26261D2F7B85007C0316 /* UIImage+ARGBData.h */,
+				A85F261B1D2F7A61007C0316 /* Trigraphy_Tweak.h */,
+				A85F26101D2F792A007C0316 /* Trigraphy_Tweak.mm */,
+				A85F26081D2F792A007C0316 /* Package */,
+				A85F260C1D2F792A007C0316 /* Supporting Files */,
+			);
+			path = Trigraphy_Tweak;
+			sourceTree = "<group>";
+		};
+		A85F26081D2F792A007C0316 /* Package */ = {
+			isa = PBXGroup;
+			children = (
+				A85F26091D2F792A007C0316 /* DEBIAN */,
+				A85F26121D2F792A007C0316 /* Library */,
+			);
+			name = Package;
+			sourceTree = "<group>";
+		};
+		A85F26091D2F792A007C0316 /* DEBIAN */ = {
+			isa = PBXGroup;
+			children = (
+				A85F260A1D2F792A007C0316 /* control.txt */,
+				A85F260B1D2F792A007C0316 /* control */,
+			);
+			name = DEBIAN;
+			sourceTree = "<group>";
+		};
+		A85F260C1D2F792A007C0316 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A85F260D1D2F792A007C0316 /* PackageVersion.plist */,
+				A85F260E1D2F792A007C0316 /* Trigraphy_Tweak-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A85F26121D2F792A007C0316 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				A85F26131D2F792A007C0316 /* MobileSubstrate */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+		A85F26131D2F792A007C0316 /* MobileSubstrate */ = {
+			isa = PBXGroup;
+			children = (
+				A85F26141D2F792A007C0316 /* DynamicLibraries */,
+			);
+			name = MobileSubstrate;
+			sourceTree = "<group>";
+		};
+		A85F26141D2F792A007C0316 /* DynamicLibraries */ = {
+			isa = PBXGroup;
+			children = (
+				A85F26151D2F792A007C0316 /* Trigraphy_Tweak.plist */,
+			);
+			name = DynamicLibraries;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A85F25FF1D2F792A007C0316 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A85F262A1D2F7B85007C0316 /* YYHelper.h in Headers */,
+				A85F26301D2F7B85007C0316 /* UIImage+ARGBData.h in Headers */,
+				A85F26321D2F7EFE007C0316 /* defs.h in Headers */,
+				A85F261C1D2F7A61007C0316 /* Trigraphy_Tweak.h in Headers */,
+				A85F262C1D2F7B85007C0316 /* UIImage+UIInage_GrayData.h in Headers */,
+				A85F26281D2F7B85007C0316 /* YYHooK.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A85F26011D2F792A007C0316 /* Trigraphy_Tweak */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A85F26181D2F792A007C0316 /* Build configuration list for PBXNativeTarget "Trigraphy_Tweak" */;
+			buildPhases = (
+				A85F25FC1D2F792A007C0316 /* ShellScript */,
+				A85F25FD1D2F792A007C0316 /* Sources */,
+				A85F25FE1D2F792A007C0316 /* Frameworks */,
+				A85F25FF1D2F792A007C0316 /* Headers */,
+				A85F26001D2F792A007C0316 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Trigraphy_Tweak;
+			productName = Trigraphy_Tweak;
+			productReference = A85F26021D2F792A007C0316 /* Trigraphy_Tweak.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A85F25F81D2F792A007C0316 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				TargetAttributes = {
+					A85F26011D2F792A007C0316 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = GWM79UVWJ8;
+					};
+				};
+			};
+			buildConfigurationList = A85F25FB1D2F792A007C0316 /* Build configuration list for PBXProject "Trigraphy_Tweak" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A85F25F71D2F792A007C0316;
+			productRefGroup = A85F26031D2F792A007C0316 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A85F26011D2F792A007C0316 /* Trigraphy_Tweak */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A85F25FC1D2F792A007C0316 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/iOSOpenDev/bin/iosod --xcbp-logos";
+		};
+		A85F26001D2F792A007C0316 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/iOSOpenDev/bin/iosod --xcbp";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A85F25FD1D2F792A007C0316 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A85F26271D2F7B85007C0316 /* YYHooK.mm in Sources */,
+				A85F262B1D2F7B85007C0316 /* UIImage+UIInage_GrayData.mm in Sources */,
+				A85F26111D2F792A007C0316 /* Trigraphy_Tweak.mm in Sources */,
+				A85F26291D2F7B85007C0316 /* YYHelper.mm in Sources */,
+				A85F262F1D2F7B85007C0316 /* UIImage+ARGBData.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A85F26161D2F792A007C0316 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(iOSOpenDevPath)/frameworks/**",
+					"$(SDKROOT)/System/Library/PrivateFrameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(iOSOpenDevPath)/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LIBRARY_SEARCH_PATHS = "$(iOSOpenDevPath)/lib/**";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = NO;
+				iOSOpenDevPath = /opt/iOSOpenDev;
+			};
+			name = Debug;
+		};
+		A85F26171D2F792A007C0316 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(iOSOpenDevPath)/frameworks/**",
+					"$(SDKROOT)/System/Library/PrivateFrameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(iOSOpenDevPath)/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LIBRARY_SEARCH_PATHS = "$(iOSOpenDevPath)/lib/**";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				iOSOpenDevPath = /opt/iOSOpenDev;
+			};
+			name = Release;
+		};
+		A85F26191D2F792A007C0316 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				CODE_SIGN_IDENTITY = "iPhone Developer: wswm2009@163.com (QWWDNNQ5YF)";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Trigraphy_Tweak/Trigraphy_Tweak-Prefix.pch";
+				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/opt/iOSOpenDev/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = arm64;
+				iOSOpenDevBuildPackageOnAnyBuild = NO;
+				iOSOpenDevCopyOnBuild = NO;
+				iOSOpenDevDevice = 192.168.2.9;
+				iOSOpenDevInstallOnAnyBuild = NO;
+				iOSOpenDevInstallOnProfiling = YES;
+				iOSOpenDevRespringOnInstall = NO;
+				iOSOpenDevUsePackageVersionPList = YES;
+			};
+			name = Debug;
+		};
+		A85F261A1D2F792A007C0316 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				CODE_SIGN_IDENTITY = "iPhone Developer: wswm2009@163.com (QWWDNNQ5YF)";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Trigraphy_Tweak/Trigraphy_Tweak-Prefix.pch";
+				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/opt/iOSOpenDev/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = arm64;
+				iOSOpenDevBuildPackageOnAnyBuild = NO;
+				iOSOpenDevCopyOnBuild = NO;
+				iOSOpenDevDevice = 192.168.2.9;
+				iOSOpenDevInstallOnAnyBuild = NO;
+				iOSOpenDevInstallOnProfiling = YES;
+				iOSOpenDevRespringOnInstall = NO;
+				iOSOpenDevUsePackageVersionPList = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A85F25FB1D2F792A007C0316 /* Build configuration list for PBXProject "Trigraphy_Tweak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A85F26161D2F792A007C0316 /* Debug */,
+				A85F26171D2F792A007C0316 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A85F26181D2F792A007C0316 /* Build configuration list for PBXNativeTarget "Trigraphy_Tweak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A85F26191D2F792A007C0316 /* Debug */,
+				A85F261A1D2F792A007C0316 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A85F25F81D2F792A007C0316 /* Project object */;
+}
